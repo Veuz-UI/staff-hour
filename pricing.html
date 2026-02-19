@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starter Template</title>
+
+  <!-- Google Font (Optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+   <!-- Swiper -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+ <header class="header-wrapper">
+    <div class="custom-container">
+      <div class="wrapHead">
+        <div id="brand">
+          <img src="assets/img/logo.svg" alt="" class="logo-width">
+        </div>
+
+        <div class="nav-contents">
+          <div class="nav-links">
+            <img src="assets/img/logo.svg" alt="" class="d-lg-none d-block mt-5">
+            <a class="link-lists" href="index.html">Home</a>
+            <a class="link-lists" href="features.html">Features</a>
+            <a class="link-lists active" href="pricing.html">Pricing</a>
+            <a class="link-lists" href="contact.html">Contact Us</a>
+            <div class="d-flex gap-1">
+             <a href="login.html">
+                <button class="stroke_btn">
+                <span>Login</span>
+              </button>
+              </a>
+
+              <button class=" gradient-btn" data-bs-toggle="offcanvas" data-bs-target="#demoCanvas">
+                Book a demo
+              </button>
+            </div>
+          </div>
+          <div class="bell-icon">
+            <i class="fa-regular fa-bell"></i>
+          </div>
+          <div class="mobile-menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="why-staff-hour">
+  <div class="custom-container">
+
+    <div class="why-container">
+       <!-- LEFT CONTENT -->
+    <div class="why-content">
+      <span class="breadcrumb">HOME | FEATURES</span>
+
+      <h2>
+        Why Choose Staff Hour for<br>
+        Workforce Management?
+      </h2>
+
+      <p>
+        Managing staff manually consumes time, increases error risk,
+        and limits visibility into productivity.
+      </p>
+
+      <a href="#" class="staff-banner-btn">
+        Delivering Effortless Workforce Management
+      </a>
+    </div>
+
+    <!-- RIGHT LOGO -->
+    <div class="why-logo">
+      <img src="assets/img/logo.svg" alt="Staff Hour Logo">
+    </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+ 
+
+
+
+  <section class="pricing-plan bg-gray section-padding">
+    <div class="pricing-container">
+      <!-- HEADER -->
+      <div class="pricing-header">
+        <h2>Discover Products With the Best Pricing</h2>
+        <p>
+          Select from best plan, ensuring a perfect match. Need more or less?
+          Customize your subscription for a seamless fit!
+        </p>
+
+        <div class="staff-pricing mt-5">
+
+          <div class="staff-pricing-tabs-wrap">
+
+            <div class="d-flex gap-1">
+              <div class="staff-pricing-tabs position-relative">
+                <span class="staff-save-badge">Save 20% <span><i class="fa-solid fa-sort-down"></i></span></span>
+                <button class="staff-tab-btn" data-tab="yearly">Yearly</button>
+                <button class="staff-tab-btn active" data-tab="monthly">Monthly</button>
+              </div>
+
+              <div class="staff-pricing-tabs">
+                <button class="staff-tab-btn" data-tab="compare">Compare plans</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB CONTENT -->
+          <div class="staff-tab-content">
+
+            <div class="staff-tab-panel" id="yearly">
+              <div class="pricing-grid">
+
+                <!-- BASIC -->
+                <div class="pricing-card featured">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Basic</h4>
+                  <small>Best for personal use.</small>
+
+                  <div class="price">Free</div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Employee directory</li>
+                    <li>Task management</li>
+                    <li>Calendar integration</li>
+                    <li>File storage</li>
+                    <li>Communication tools</li>
+                    <li>Reporting and analytics</li>
+                  </ul>
+                </div>
+
+                <!-- STARTER -->
+                <div class="pricing-card">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Starter</h4>
+                  <small>Best for personal use</small>
+
+                  <div class="price">$20 <span>/ per month</span></div>
+
+                  <a href="#" class="btn-dark staff-banner-btn">Get Started</a>
+
+                  <div class="plan-divider"></div>
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Advanced employee directory</li>
+                    <li>Project management</li>
+                    <li>Resource scheduling</li>
+                    <li>Version control</li>
+                    <li>Team collaboration</li>
+                    <li>Advanced analytics</li>
+                  </ul>
+                </div>
+
+                <!-- BUSINESS -->
+                <div class="pricing-card">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Business</h4>
+                  <small>Best for business owners.</small>
+
+                  <div class="price">$120 <span>/ per month</span></div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+                  <div class="plan-divider"></div>
+
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Customizable employee directory</li>
+                    <li>Client project management</li>
+                    <li>Client meeting schedule</li>
+                    <li>Compliance tracking</li>
+                    <li>Client communication</li>
+                    <li>Create custom reports tailored</li>
+                  </ul>
+                </div>
+
+                <!-- ENTERPRISE -->
+                <div class="pricing-card">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Enterprise</h4>
+                  <small>Best for personal use</small>
+
+                  <div class="price">Custom</div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+
+
+                  <div class="plan-divider"></div>
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Customizable employee directory</li>
+                    <li>Client project management</li>
+                    <li>Client meeting schedule</li>
+                    <li>Compliance tracking</li>
+                    <li>Client communication</li>
+                    <li>Create custom reports tailored</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="staff-tab-panel active" id="monthly">
+              <div class="pricing-grid">
+
+                <!-- BASIC -->
+                <div class="pricing-card ">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Basic</h4>
+                  <small>Best for personal use.</small>
+
+                  <div class="price">Free</div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+                  <div class="plan-divider"></div>
+
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Employee directory</li>
+                    <li>Task management</li>
+                    <li>Calendar integration</li>
+                    <li>File storage</li>
+                    <li>Communication tools</li>
+                    <li>Reporting and analytics</li>
+                  </ul>
+                </div>
+
+                <!-- STARTER -->
+                <div class="pricing-card featured">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Starter</h4>
+                  <small>Best for personal use</small>
+
+                  <div class="price">$20 <span>/ per month</span></div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Advanced employee directory</li>
+                    <li>Project management</li>
+                    <li>Resource scheduling</li>
+                    <li>Version control</li>
+                    <li>Team collaboration</li>
+                    <li>Advanced analytics</li>
+                  </ul>
+                </div>
+
+                <!-- BUSINESS -->
+                <div class="pricing-card">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Business</h4>
+                  <small>Best for business owners.</small>
+
+                  <div class="price">$120 <span>/ per month</span></div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+                  <div class="plan-divider"></div>
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Customizable employee directory</li>
+                    <li>Client project management</li>
+                    <li>Client meeting schedule</li>
+                    <li>Compliance tracking</li>
+                    <li>Client communication</li>
+                    <li>Create custom reports tailored</li>
+                  </ul>
+                </div>
+
+                <!-- ENTERPRISE -->
+                <div class="pricing-card">
+                  <div class="check-icon"><i class="fa-solid fa-check"></i></div>
+                  <h4>Enterprise</h4>
+                  <small>Best for personal use</small>
+
+                  <div class="price">Custom</div>
+
+                  <a href="#" class="btn-outline">Get Started</a>
+
+                  <div class="plan-divider"></div>
+
+                  <h5>What you will get</h5>
+                  <ul>
+                    <li>Customizable employee directory</li>
+                    <li>Client project management</li>
+                    <li>Client meeting schedule</li>
+                    <li>Compliance tracking</li>
+                    <li>Client communication</li>
+                    <li>Create custom reports tailored</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="staff-tab-panel" id="compare">
+              <!-- compare view -->
+              <div class="compare-overview">
+                <div class=" table-scroll">
+                  <table class="table table-head table-bordered table-hover align-middle pricing-table">
+                    <thead>
+                      <tr>
+                        <th class="transperent" data-col="1" >
+                          
+                        </th>
+                        <th data-col="2">
+                          <div class="table-head-inner">
+                            <div class="plan-category">FREE</div>
+                            <div class="left-table-head">FREE 
+                            <span>/month</span></div>
+                              <a href="#" class="btn-outline">Get started</a>
+                          </div>
+                        </th>
+                        <th data-col="3">
+                          <div class="table-head-inner">
+                            <div class="plan-category">Starter</div>
+                            <div class="left-table-head">$200 
+                            <span>/month</span></div>
+                              <a href="#" class="btn-outline">Get started</a>
+                          </div>
+                        </th>
+                        <th data-col="4">
+                          <div class="table-head-inner">
+                            <div class="plan-category">Business</div>
+                            <div class="left-table-head">$120 
+                            <span>/month</span></div>
+                              <a href="#" class="btn-outline">Get started</a>
+                          </div>
+                        </th>
+                         <th data-col="5">
+                          <div class="table-head-inner">
+                            <div class="plan-category">Enterprise</div>
+                            <div class="left-table-head">Custom 
+                            </div>
+                              <a href="#" class="btn-outline">Get started</a>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                  </table>
+
+                  <div class="category-section">
+                    <div class="table-responsive">
+                      <table class="table sticky-table table-bordered table-hover align-middle pricing-table">
+
+                        <thead class="category-header">
+                          <tr>
+                            <th colspan="5">Productivity monitoring</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td class="feature-name">
+                              Customizable Workflows
+                                 <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center">
+                                100
+                            </td>
+                            <td class="text-center">
+                                100
+                            </td>
+                            <td class="text-center">
+                                100
+                            </td>
+                            <td class="text-center">
+                                <div class="gradient-text">Unlimited</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="feature-name">
+                              Project Planning
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center">
+                              <span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center">
+                              <span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center">
+                              <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                            <td class="text-center">
+                              <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="feature-name">
+                              Time Tracking
+                            
+                               <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center">
+                              <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                            <td class="text-center">
+                              <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                            <td class="text-center">
+                              <span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center">
+                              <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                          </tr>
+                          
+                         
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="category-section">
+                    <div class="table-responsive">
+                      <table class="table sticky-table table-bordered table-hover align-middle pricing-table">
+
+                        <thead class="category-header">
+                          <tr>
+                            <th colspan="5">Visualization</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td class="feature-name">
+                              Gantt Charts
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                          </tr>
+
+                          <tr>
+                            <td class="feature-name">
+                                Agile Methodology Support
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                          </tr>
+
+                          <tr>
+                            <td class="feature-name">
+                              Reporting and Analytics
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                          </tr>
+
+                          <tr>
+                            <td class="feature-name">
+                              Team and Individual Dashboards
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span></td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                          </tr>
+                        </tbody>
+
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="category-section">
+                    <div class="table-responsive">
+                      <table class="table sticky-table table-bordered table-hover align-middle pricing-table">
+                        <thead class="category-header">
+                          <tr>
+                            <th colspan="5">Integarations</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="feature-name">
+                              Document Management
+                               <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="feature-name">
+                              Client Collaboration
+                              
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                             <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="feature-name">
+                              Mobile App Integration
+                              
+                              <span class="feature-desc">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center"><span class="cross-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </td>
+                            <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                             <td class="text-center"><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+             
+
+            
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+<section class="staff-cta-section">
+
+  <video
+    class="staff-bg-video"
+    autoplay
+    muted
+    loop
+    playsinline
+  >
+    <source src="assets/img/ab-vedio.mp4" type="video/mp4">
+  </video>
+
+ <div class="staff-top-cta">
+      <span>Still Confused to choose what's right for you ?</span>
+      <a href="#">CONNECT WITH US</a>
+    </div>
+
+  <div class="staff-cta-inner">
+
+
+    <div class="staff-download-card">
+      <div class="staff-left">
+        <h2><strong>Download</strong> App Now</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Viverrra nunc et velit vitae. Est tellus vitae,
+          nullam lobortis enim.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Viverrra nunc et velit vitae. Est tellus vitae,
+          nullam lobortis enim.
+        </p>
+
+        <div class="staff-stats">
+          <div class="staff-stat">
+            <i class="fa-solid fa-download"></i>
+            <strong>59865</strong>
+            <span>DOWNLOAD</span>
+          </div>
+          <div class="staff-stat">
+            <i class="fa-solid fa-star"></i>
+            <strong>1500</strong>
+            <span>5 STAR RATING</span>
+          </div>
+          <div class="staff-stat">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <strong>29852</strong>
+            <span>LIKE</span>
+          </div>
+        </div>
+
+        <div class="staff-store-buttons">
+          <img src="assets/img/app-store.png" alt="App Store">
+          <img src="assets/img/play-store.png" alt="Google Play">
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="staff-right">
+        <div>
+          <h3>Simplified Workforce Success</h3>
+          <p>
+            Veuz Concepts’ Staff Hour is not just about logging hours.
+            We deliver workforce accountability with advanced technology
+            designed for modern businesses.
+          </p>
+        </div>
+
+        <div class="d-flex flex-column justfy-content-center align-items-center"> 
+          <a href="#">Book A Demo</a>
+          <small>SECURE, SCALABLE, SMART</small>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+  
+
+
+
+<footer class="staff-footer">
+
+  <div class="staff-footer-inner">
+
+    <!-- LEFT -->
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">
+        <img src="assets/img/logo-white.png" alt="" class="img-fluid">
+      </div>
+
+      <ul class="footer-contact">
+        <li><span><i class="fa-solid fa-envelope"></i></span> info@veuzconcepts.com</li>
+        <li><span><i class="fa-solid fa-phone"></i></span> +966 56 573 3611, +91 8086 043 311</li>
+      </ul>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-google"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- MIDDLE -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-col footer-newsletter">
+     <div class="d-flex align-items-center gap-3 mb-2">
+       <div>
+        <h4>Join our newsletter</h4>
+        <p>Keep up to date with everything Reflect</p>
+      </div>
+      <button class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+     </div>
+
+
+      <div class="newsletter-box">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <!-- SCROLL TOP -->
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <span>Staffhour 2026. All rights reserved</span>
+
+    <div class="footer-legal">
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Legal</a>
+    </div>
+
+    <span class="footer-credit">A Product of Veuz Concepts.</span>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+  <!-- jQuery (Required for Owl Carousel) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
