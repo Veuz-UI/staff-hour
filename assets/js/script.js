@@ -394,36 +394,4 @@ $(document).ready(function () {
 
     
   
-        /* ============================
-    Smooth scroll
-  ============================ */
-
-
-   const lenis = new Lenis();
-
-    let isScrolling = false;
-    const scrollDelay = 100; // Delay in milliseconds
-
-    lenis.on('scroll', (e) => {
-      if (!isScrolling) {
-        isScrolling = true;
-
-        console.log(`Scroll event:`, e);
-
-        setTimeout(() => {
-          isScrolling = false;
-        }, scrollDelay);
-      }
-    });
-
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-
-
-         /* ============================
-    Smooth scroll
-  ============================ */
+   

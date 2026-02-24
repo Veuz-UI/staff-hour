@@ -15,7 +15,6 @@
   --text-gray: #666;
   --border-color: #e0e0e0;
   --glass-2: rgba(255, 255, 255, 0.03);
-  scroll-behavior: auto !important;
 }
 
 * {
