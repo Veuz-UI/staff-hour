@@ -107,6 +107,24 @@ $(document).ready(function () {
     Scroll to Top Button
   ============================ */
 
+
+    /* ============================
+    Loader
+  ============================ */
+  $(document).ready(function () {
+          window.addEventListener("load", function(){
+        const loader = document.querySelector(".loader_wrapper");
+        setTimeout(function(){
+        loader.classList.add("hide");
+        document.body.classList.remove("loading");
+        },3000);
+        });
+      });
+
+  /* ============================
+    Loader
+  ============================ */
+
    /* ============================
     Pricing Tab Switcher
   ============================ */
@@ -393,5 +411,3 @@ $(document).ready(function () {
 
 
     
-  
-   
